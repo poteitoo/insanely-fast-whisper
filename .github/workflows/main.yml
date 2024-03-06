@@ -19,4 +19,7 @@ jobs:
 
       - name: Push to Replicate
         run: |
-          cog push r8.im/poteitoo/youtube-whisper
+          docker pull potesala/youtube-whisper
+          docker tag potesala/youtube-whisper r8.im/poteitoo/youtube-whisper
+          docker push r8.im/poteitoo/youtube-whisper
+          
