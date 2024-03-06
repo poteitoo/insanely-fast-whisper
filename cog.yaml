@@ -17,6 +17,9 @@ build:
     - "optimum==1.14.0"
     - "pyannote-audio==3.1.0"
     - "rich==13.7.0"
+    - "pydub==0.25.1"
+    - "yt-dlp==2023.12.30"
+
   run: 
     - pip install packaging
     - pip install flash-attn --no-build-isolation
